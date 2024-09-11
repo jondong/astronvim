@@ -9,6 +9,14 @@ return {
   -- import/override with your plugins folder
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.kotlin" },
+  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.typescript" },
 }
